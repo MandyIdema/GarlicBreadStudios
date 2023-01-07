@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - RoomLight
+  - dropPoint
+  - prize
   layers:
   - Default
   - TransparentFX
