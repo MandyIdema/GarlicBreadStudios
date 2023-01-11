@@ -14,15 +14,26 @@ public class UIManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        if(watchEnable.UISetActive)
+        if (watchEnable.UISetActive)
         {
-            menu.SetActive(!menu.activeSelf);
+            Watch();
+        }
+        else
+        {
+            menu.transform.position = menu.transform.position = new Vector3(Head.forward.x, -10, Head.forward.z).normalized * spawnDistance;
+        }
+       
+    }
+
+    public void Watch()
+    {
+
+            //menu.SetActive(!menu.activeSelf);
 
             menu.transform.position = Head.position + new Vector3(Head.forward.x, 0, Head.forward.z).normalized * spawnDistance;
-        }
-        menu.transform.LookAt(new Vector3(Head.position.x, menu.transform.position.y, Head.position.z));
-        menu.transform.forward *= -1;
+            menu.transform.LookAt(new Vector3(Head.position.x, menu.transform.position.y, Head.position.z));
+            menu.transform.forward *= -1;
     }
 }

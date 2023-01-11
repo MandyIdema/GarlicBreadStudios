@@ -17,8 +17,8 @@ public class watchEnable : MonoBehaviour
     {
         if(other.gameObject == RHand)
         {
-            UISetActive = true;
-           
+            UISetActive = !UISetActive;
+            Debug.Log(" Watch touched");
         }
     }
 }
