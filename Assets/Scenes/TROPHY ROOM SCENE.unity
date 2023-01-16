@@ -5736,7 +5736,6 @@ GameObject:
   - component: {fileID: 1864734913}
   - component: {fileID: 1864734917}
   - component: {fileID: 1864734916}
-  - component: {fileID: 1864734918}
   m_Layer: 0
   m_Name: Go to stadium
   m_TagString: Untagged
@@ -5876,19 +5875,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 159.60873, y: 29.64, z: 1}
   m_Center: {x: 0.15576927, y: 0, z: 0}
---- !u!114 &1864734918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1864734911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94f374a4c7ac6ef48b6ec2ef55f4b2af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  RHand: {fileID: 1553514539}
 --- !u!1 &1882556901
 GameObject:
   m_ObjectHideFlags: 0

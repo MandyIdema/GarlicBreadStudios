@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class buttontouched : MonoBehaviour
 {
@@ -22,6 +23,7 @@ public class buttontouched : MonoBehaviour
         if(other.gameObject == RHand)
         {
             Debug.Log(" ButtonTouched");
+            SceneManager.LoadScene("Stadium");
         }
     }
 }

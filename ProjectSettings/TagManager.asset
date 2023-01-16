@@ -7,6 +7,7 @@ TagManager:
   - RoomLight
   - dropPoint
   - prize
+  - soccerPlayer
   layers:
   - Default
   - TransparentFX
