@@ -8,6 +8,7 @@ TagManager:
   - dropPoint
   - prize
   - soccerPlayer
+  - promptTrigger
   layers:
   - Default
   - TransparentFX
