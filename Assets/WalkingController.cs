@@ -31,6 +31,8 @@ public class WalkingController : MonoBehaviour
         distanceTravelled += Vector3.Distance(transform.position, lastPosition);
         //The distance the player has traveled from their first position
 
+        PlayerReturn();
+
         
     }
 
