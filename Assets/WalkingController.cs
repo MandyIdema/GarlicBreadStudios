@@ -18,7 +18,12 @@ public class WalkingController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
+    {
+        Playermove();
+    }
+
+    void Playermove()
     {
         this.gameObject.transform.position += new Vector3(Characterspeed * Time.deltaTime, 0, 0);
         //Move the player on the x axis by speed
@@ -26,7 +31,12 @@ public class WalkingController : MonoBehaviour
         distanceTravelled += Vector3.Distance(transform.position, lastPosition);
         //The distance the player has traveled from their first position
 
-        if(distanceTravelled > DistanceAllowedTravel)
+        
+    }
+
+    void PlayerReturn()
+    {
+        if (distanceTravelled > DistanceAllowedTravel)
         {
             distanceTravelled = 0;
             this.gameObject.transform.position = lastPosition;
