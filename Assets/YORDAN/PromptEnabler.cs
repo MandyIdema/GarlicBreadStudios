@@ -12,6 +12,7 @@ public class PromptEnabler : MonoBehaviour
         if (other.tag == "promptTrigger")
         {
             canvas.SetActive(true);
+            Debug.Log("triggered");
         }
     }
 }

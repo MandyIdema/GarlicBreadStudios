@@ -9,6 +9,8 @@ TagManager:
   - prize
   - soccerPlayer
   - promptTrigger
+  - HandCollider
+  - Watch
   layers:
   - Default
   - TransparentFX
