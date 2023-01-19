@@ -11,6 +11,8 @@ TagManager:
   - promptTrigger
   - HandCollider
   - Watch
+  - Ball
+  - ball
   layers:
   - Default
   - TransparentFX
