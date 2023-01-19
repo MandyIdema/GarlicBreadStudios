@@ -6,17 +6,13 @@ public class BringBallBack : MonoBehaviour
 {
 
     public bool BallComeBack;
-    public GameObject Ball;
-    //Variables for finding the ball object we want to return to museum
 
-    public GameObject Player;
-    private Vector3 PlayerPos;
+    public Vector3 BallspawnPosition;
+    //Variables for finding the ball object we want to return to museum
     //Player position we want the ball to go to
 
     void Start()
     {
-        BallComeBack = false;
-        PlayerPos = Player.transform.position;
     }
 
     void FixedUpdate()
@@ -38,7 +34,9 @@ public class BringBallBack : MonoBehaviour
     {
         if (BallComeBack)
         {
-            Ball.transform.position = PlayerPos;
+            GameObject Ball_Find = GameObject.FindGameObjectWithTag("ball");
+            Ball_Find.transform.position = BallspawnPosition;
+            BallComeBack = false;
         }
     }
 }
