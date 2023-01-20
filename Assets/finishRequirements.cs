@@ -16,7 +16,7 @@ public class finishRequirements : MonoBehaviour
     }
     public void FinishRequirement()
     {
-        if(dropPoint.prizeDelivered && dropPoint1.prizeDelivered && dropPoint2.prizeDelivered)
+        if(dropPoint.prizeDelivered)
         {
             Debug.Log("Done!");
             this.gameObject.GetComponent<Renderer>().enabled = true;

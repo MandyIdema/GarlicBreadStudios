@@ -5,7 +5,7 @@ using UnityEngine;
 public class BringBallBack : MonoBehaviour
 {
 
-    public bool BallComeBack;
+    public static bool BallComeBack;
 
     public Vector3 BallspawnPosition;
     //Variables for finding the ball object we want to return to museum
@@ -17,7 +17,6 @@ public class BringBallBack : MonoBehaviour
 
     void FixedUpdate()
     {
-        BallReturn();
     }
 
     private void OnTriggerEnter(Collider other)
