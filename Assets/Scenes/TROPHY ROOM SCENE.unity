@@ -1528,6 +1528,7 @@ GameObject:
   - component: {fileID: 372120348}
   - component: {fileID: 372120350}
   - component: {fileID: 372120349}
+  - component: {fileID: 372120351}
   m_Layer: 0
   m_Name: Artifact Prompt (1)
   m_TagString: Untagged
@@ -1602,6 +1603,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &372120351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372120347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8005ae5abb44e4d93f6e9fa8a354e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1758045776}
 --- !u!1 &378020996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2545,6 +2559,7 @@ GameObject:
   - component: {fileID: 484533704}
   - component: {fileID: 484533706}
   - component: {fileID: 484533705}
+  - component: {fileID: 484533707}
   m_Layer: 0
   m_Name: Artifact Prompt (4)
   m_TagString: Untagged
@@ -2619,6 +2634,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &484533707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484533703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8005ae5abb44e4d93f6e9fa8a354e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1758045776}
 --- !u!1 &576991828
 GameObject:
   m_ObjectHideFlags: 0
@@ -3753,6 +3781,7 @@ GameObject:
   - component: {fileID: 893114298}
   - component: {fileID: 893114300}
   - component: {fileID: 893114299}
+  - component: {fileID: 893114301}
   m_Layer: 0
   m_Name: Artifact Prompt (3)
   m_TagString: Untagged
@@ -3828,6 +3857,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &893114301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893114297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8005ae5abb44e4d93f6e9fa8a354e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1758045776}
 --- !u!1 &893170818
 GameObject:
   m_ObjectHideFlags: 0
@@ -3839,6 +3881,7 @@ GameObject:
   - component: {fileID: 893170819}
   - component: {fileID: 893170821}
   - component: {fileID: 893170820}
+  - component: {fileID: 893170822}
   m_Layer: 0
   m_Name: Artifact Prompt (2)
   m_TagString: Untagged
@@ -3913,6 +3956,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &893170822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893170818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8005ae5abb44e4d93f6e9fa8a354e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1758045776}
 --- !u!1 &900765407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,6 +4566,7 @@ GameObject:
   - component: {fileID: 1158894486}
   - component: {fileID: 1158894488}
   - component: {fileID: 1158894487}
+  - component: {fileID: 1158894489}
   m_Layer: 0
   m_Name: Artifact Prompt
   m_TagString: Untagged
@@ -4584,6 +4641,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &1158894489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158894485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c8005ae5abb44e4d93f6e9fa8a354e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1758045776}
 --- !u!1 &1180323612
 GameObject:
   m_ObjectHideFlags: 0
@@ -7053,7 +7123,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
+  m_Height: 5.18
   m_Radius: 0.2
   m_SlopeLimit: 45
   m_StepOffset: 0.3
