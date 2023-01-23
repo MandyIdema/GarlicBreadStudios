@@ -10,6 +10,7 @@ public class PromptEnabler : MonoBehaviour
     public GameObject canvas2;
     public GameObject canvas3;
     public GameObject canvas4;
+    public GameObject canvas5;
 
     void OnTriggerEnter(Collider other)
     {
@@ -40,6 +41,12 @@ public class PromptEnabler : MonoBehaviour
         if (other.tag == "canvas4")
         {
             canvas4.SetActive(true);
+            Debug.Log("triggered");
+        }
+
+        if (other.tag == "canvas5")
+        {
+            canvas5.SetActive(true);
             Debug.Log("triggered");
         }
     }
