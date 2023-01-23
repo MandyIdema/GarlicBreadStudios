@@ -11,9 +11,6 @@ public class BringBallBack : MonoBehaviour
     //Variables for finding the ball object we want to return to museum
     //Player position we want the ball to go to
 
-    void Start()
-    {
-    }
 
     void FixedUpdate()
     {
@@ -33,7 +30,7 @@ public class BringBallBack : MonoBehaviour
     {
         if (BallComeBack)
         {
-            GameObject Ball_Find = GameObject.FindGameObjectWithTag("ball");
+            GameObject Ball_Find = GameObject.FindGameObjectWithTag("Ball");
             Ball_Find.transform.position = BallspawnPosition;
             BallComeBack = false;
         }
