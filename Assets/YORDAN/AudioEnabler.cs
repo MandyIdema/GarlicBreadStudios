@@ -70,6 +70,11 @@ public class AudioEnabler : MonoBehaviour
             promptFour.Stop();
             promptFive.Stop();
             promptSix.Play();
+
+            if (dropPoint.prizeDelivered)
+            {
+                promptSix.Stop();
+            }
         }
     }
 }

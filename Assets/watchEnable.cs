@@ -8,10 +8,6 @@ public class watchEnable : MonoBehaviour
     public static bool UISetActive = false;
     public GameObject RHand;
 
-    private void Update()
-    {
-        
-    }
 
     public void OnTriggerEnter(Collider other)
     {
@@ -19,6 +15,8 @@ public class watchEnable : MonoBehaviour
         {
             UISetActive = !UISetActive;
             Debug.Log(" Watch touched");
+
+            //Make a button so if the hand touches the wristwatch turn it on and off
         }
     }
 }

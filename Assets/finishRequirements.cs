@@ -10,7 +10,6 @@ public class finishRequirements : MonoBehaviour
     private void Awake()
     {
         this.gameObject.GetComponent<Renderer>().enabled = false;
-        this.gameObject.GetComponentInChildren<Renderer>().enabled = true;
     }
 
     private void Update()
@@ -23,7 +22,7 @@ public class finishRequirements : MonoBehaviour
         {
             Debug.Log("Done!");
             this.gameObject.GetComponent<Renderer>().enabled = true;
-            this.gameObject.GetComponentInChildren<Renderer>().enabled = true;
+
 
             Ball_image.GetComponent<Renderer>().enabled = false;
             prompt6.SetActive(false);
