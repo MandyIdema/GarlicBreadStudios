@@ -10,7 +10,8 @@ public class PromptEnabler : MonoBehaviour
     public GameObject canvas2;
     public GameObject canvas3;
     public GameObject canvas4;
-    public GameObject canvas5;
+    public GameObject canvas5; //these variables represent the prompts, and the prompts are triggered via tag depending on which trigger
+                                                                                                              //the player collides with
 
     void OnTriggerEnter(Collider other)
     {

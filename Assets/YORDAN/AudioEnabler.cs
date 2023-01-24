@@ -9,7 +9,7 @@ public class AudioEnabler : MonoBehaviour
     public AudioSource promptThree;
     public AudioSource promptFour;
     public AudioSource promptFive;
-    public AudioSource promptSix;
+    public AudioSource promptSix;//depending on which trigger the player collides with the corresponding voice-over is played
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "promptTrigger")
