@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class finishRequirements : MonoBehaviour
 {
+    public GameObject Ball_image;
+    public GameObject prompt6;
 
     private void Awake()
     {
@@ -20,6 +22,10 @@ public class finishRequirements : MonoBehaviour
         {
             Debug.Log("Done!");
             this.gameObject.GetComponent<Renderer>().enabled = true;
+
+            Ball_image.GetComponent<Renderer>().enabled = false;
+            prompt6.SetActive(false);
+
         }
     }
 }
