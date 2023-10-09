@@ -5,11 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/TROPHY ROOM SCENE.unity
+    guid: 4d47624d062f431408817082978fa123
+  - enabled: 1
+    path: Assets/Scenes/Stadium.unity
+    guid: 68657f90e58e4ef42850319fa0da4f05
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4c8ab15c19037c94888a68897c2c1293,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4945af1e7186ae34b85972911c0ddcc4,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: cb56decf07b2b8443bdbe447ec5a935b,
       type: 2}
